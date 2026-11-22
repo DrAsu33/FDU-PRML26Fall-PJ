@@ -1,0 +1,44 @@
+# Large model weights, checkpoints & Stockfish binaries (DO NOT commit to GitHub)
+model/
+checkpoints/
+Stockfish/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Large datasets & archives (Lichess PGN / evals / puzzles)
+data/
+*.pgn
+*.pgn.zst
+*.zst
+*.jsonl
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# Python virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Experiment logs, outputs & secrets
+logs/
+outputs/
+wandb/
+*.log
+.env
+*.key
+id_ed25519*
+id_rsa*
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
